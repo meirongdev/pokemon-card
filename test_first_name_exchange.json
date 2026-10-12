@@ -1,0 +1,46 @@
+{
+  "request": {
+    "url": "https://livepocket.jp/account/profile",
+    "method": "POST (with _method=patch)",
+    "headers": {
+      "accept": "text/vnd.turbo-stream.html, text/html, application/xhtml+xml",
+      "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+      "x-csrf-token": "uyjKhlP9j4oaAmKIxDWbDMfvMu3HyKcKdmBh2hjOHY4jMBElomun328ALpCaQWA0eTiKmH6sVodTC8stI5dYRg"
+    },
+    "body": "_method=patch&authenticity_token=y7dbszWHwM-PixyRaRdq_FWgxpmL-Lwz4PtlRSc0IDBzZDSwkYyt_r2VkgDGYMr0c52sr5MmmHB1jWfp_isnKA&user[last_name]=%E5%B1%B1%E7%94%B0&user[first_name]=%E5%A4%AA%E9%83%8E1&user[prefecture_id]=13&user[country_id]=&button=",
+    "decodedBody": "_method=patch&authenticity_token=y7dbszWHwM-PixyRaRdq_FWgxpmL-Lwz4PtlRSc0IDBzZDSwkYyt_r2VkgDGYMr0c52sr5MmmHB1jWfp_isnKA&user[last_name]=山田&user[first_name]=太郎1&user[prefecture_id]=13&user[country_id]=&button="
+  },
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "ok": true,
+    "redirected": true,
+    "url": "https://livepocket.jp/account",
+    "headers": {
+      "cache-control": "no-store",
+      "content-encoding": "br",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Mon, 12 Oct 2026 11:49:41 GMT",
+      "etag": "W/\"7d08a252c11d1a8e88ee6de2db4b97ee\"",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "link": "</packs/user/application-53fa73fc836642905220.css>; rel=preload; as=style; nopush",
+      "pragma": "no-cache",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "openresty",
+      "vary": "Accept-Encoding",
+      "via": "1.1 71cf035a55e299e5d12b1bf6482e945e.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "-zE2MGsI9-B1FiGuk9paRr2BJd6WEzMDBe-559BlCMght26L3I50ew==",
+      "x-amz-cf-pop": "SIN2-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-permitted-cross-domain-policies": "none",
+      "x-queueit-connector": "cloudfront",
+      "x-request-id": "3f149209-1e34-404c-a9ea-8ad226146172",
+      "x-runtime": "0.192347",
+      "x-xss-protection": "0"
+    },
+    "bodySnippet": "<!DOCTYPE html>\n<html>\n  <head>\n      <!-- Google Tag Manager -->\n  <script>\n    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9D7D7');\n  </script>\n  <!-- End Google Tag Manager -->\n\n    <title id=\"page_title\">\n        アカウント設定｜LivePocket（ライブポケット）\n    </title>\n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:image\" content=\"https://livepocket.jp/packs/user/media/images/ogp_image-7753424e3d1955f54264.jpg\">\n    <meta property=\"og:url\" content=\"https://livepocket.jp/account\">\n    <meta property=\"og:title\" content=\"アカウント設定｜LivePocket（ライブポケット）\">\n    <meta property=\"og:site_name\" content=\"LivePocket\">\n    <meta property=\"fb:app_id\" content=\"382927681730507\">\n    <meta property=\"twitter:card\"",
+    "bodyTotalLength": 52834
+  }
+}

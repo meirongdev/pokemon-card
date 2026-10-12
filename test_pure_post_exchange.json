@@ -1,0 +1,44 @@
+{
+  "request": {
+    "url": "https://livepocket.jp/account/profile",
+    "method": "Pure POST (no _method parameter)",
+    "headers": {
+      "accept": "text/vnd.turbo-stream.html, text/html, application/xhtml+xml",
+      "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+      "x-csrf-token": "x1LtSmEKyxKXq3iR1wBKxBKR-HMbDW-1u77GZ0nBPrlfSjbpkJzjR-KpNImJdLH8rEZABqJpnjie1WyQcph7cQ"
+    },
+    "body": "authenticity_token=G23vIc3cOGn0pS3oLs1K0L5USG6gTj-qnLbhU23xFUijvoAiaddVWMa7o3mBuurYmGkiWLiQG-kJwOP_tO4SUA&user[last_name]=%E5%B1%B1%E7%94%B0&user[first_name]=%E5%A4%AA%E9%83%8E1&user[prefecture_id]=13&user[country_id]=&button=",
+    "decodedBody": "authenticity_token=G23vIc3cOGn0pS3oLs1K0L5USG6gTj-qnLbhU23xFUijvoAiaddVWMa7o3mBuurYmGkiWLiQG-kJwOP_tO4SUA&user[last_name]=山田&user[first_name]=太郎1&user[prefecture_id]=13&user[country_id]=&button="
+  },
+  "response": {
+    "status": 303,
+    "statusText": "",
+    "ok": false,
+    "redirected": false,
+    "url": "https://livepocket.jp/account/profile",
+    "headers": {
+      "cache-control": "no-store",
+      "content-length": "89",
+      "content-type": "text/vnd.turbo-stream.html; charset=utf-8",
+      "date": "Mon, 12 Oct 2026 11:51:32 GMT",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "pragma": "no-cache",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "openresty",
+      "vary": "Accept",
+      "via": "1.1 71cf035a55e299e5d12b1bf6482e945e.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "DpDQ0dO4v-5mqzAW4x_rPd3ElTkqEfLxwzUhiiq4MrXv3eqoqXn3Fw==",
+      "x-amz-cf-pop": "SIN2-P4",
+      "x-cache": "Miss from cloudfront",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-permitted-cross-domain-policies": "none",
+      "x-queueit-connector": "cloudfront",
+      "x-request-id": "2bf422d9-8907-43e5-a85c-ba6840031f9a",
+      "x-runtime": "0.033280",
+      "x-xss-protection": "0"
+    },
+    "bodySnippet": "<turbo-stream action=\"redirect\" target=\"/errors/404\"><template></template></turbo-stream>",
+    "bodyTotalLength": 89
+  }
+}
